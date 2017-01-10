@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>Type</key>
+			<integer>0</integer>
+			<key>Title</key>
+			<string>Auto Play</string>
+			<key>Description</key>
+			<string>Enable Auto Play</string>
+		</dict>
+	</array>
+	<array>
+        <dict>
+            <key>Type</key>
+            <string>1</string>
+            <key>Title</key>
+            <string>Parental Guidance</string>
+            <key>Description</key>
+            <string></string>
+            <key>Url</key>
+            <string>http://bbc.co.uk</string>
+        </dict>
+		<dict>
+			<key>Type</key>
+			<string>1</string>
+			<key>Title</key>
+			<string>BBC iPlayer Terms</string>
+			<key>Description</key>
+			<string>Tap here to view terms</string>
+			<key>Url</key>
+			<string>http://bbc.co.uk</string>
+		</dict>
+        <dict>
+            <key>Type</key>
+            <string>1</string>
+            <key>Title</key>
+            <string>Privacy Cookies</string>
+            <key>Description</key>
+            <string>Tap here to view terms</string>
+            <key>Url</key>
+            <string>http://bbc.co.uk</string>
+        </dict>
+	</array>
+</array>
+</plist>

@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		83D36DEF1E25635B00B8B612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D36DEE1E25635B00B8B612 /* main.m */; };
 		83D36DF21E25635B00B8B612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D36DF11E25635B00B8B612 /* AppDelegate.m */; };
-		83D36DF51E25635B00B8B612 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D36DF41E25635B00B8B612 /* ViewController.m */; };
 		83D36DF81E25635B00B8B612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D36DF61E25635B00B8B612 /* Main.storyboard */; };
 		83D36DFA1E25635B00B8B612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D36DF91E25635B00B8B612 /* Assets.xcassets */; };
 		83D36DFD1E25635B00B8B612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D36DFB1E25635B00B8B612 /* LaunchScreen.storyboard */; };
-		83D36E081E25635B00B8B612 /* SettingsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D36E071E25635B00B8B612 /* SettingsAppTests.m */; };
 		83D36E131E25635B00B8B612 /* SettingsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D36E121E25635B00B8B612 /* SettingsAppUITests.m */; };
+		83D36E221E25637D00B8B612 /* SettingsDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D36E211E25637D00B8B612 /* SettingsDataProvider.m */; };
+		83D36E241E2563A700B8B612 /* SettingsDataProviderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D36E231E2563A700B8B612 /* SettingsDataProviderTest.m */; };
+		83D36E261E25665E00B8B612 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D36E251E25665E00B8B612 /* Settings.plist */; };
+		83D36E291E25711700B8B612 /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D36E281E25711700B8B612 /* Setting.m */; };
+		83D36E2E1E2578A900B8B612 /* SettingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D36E2D1E2578A900B8B612 /* SettingTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +42,22 @@
 		83D36DEE1E25635B00B8B612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83D36DF01E25635B00B8B612 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83D36DF11E25635B00B8B612 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		83D36DF31E25635B00B8B612 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		83D36DF41E25635B00B8B612 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		83D36DF71E25635B00B8B612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83D36DF91E25635B00B8B612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83D36DFC1E25635B00B8B612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83D36DFE1E25635B00B8B612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D36E031E25635B00B8B612 /* SettingsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettingsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83D36E071E25635B00B8B612 /* SettingsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsAppTests.m; sourceTree = "<group>"; };
 		83D36E091E25635B00B8B612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D36E0E1E25635B00B8B612 /* SettingsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettingsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D36E121E25635B00B8B612 /* SettingsAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsAppUITests.m; sourceTree = "<group>"; };
 		83D36E141E25635B00B8B612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D36E201E25637D00B8B612 /* SettingsDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsDataProvider.h; sourceTree = "<group>"; };
+		83D36E211E25637D00B8B612 /* SettingsDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsDataProvider.m; sourceTree = "<group>"; };
+		83D36E231E2563A700B8B612 /* SettingsDataProviderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsDataProviderTest.m; sourceTree = "<group>"; };
+		83D36E251E25665E00B8B612 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		83D36E271E25711700B8B612 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		83D36E281E25711700B8B612 /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+		83D36E2D1E2578A900B8B612 /* SettingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +110,10 @@
 			children = (
 				83D36DF01E25635B00B8B612 /* AppDelegate.h */,
 				83D36DF11E25635B00B8B612 /* AppDelegate.m */,
-				83D36DF31E25635B00B8B612 /* ViewController.h */,
-				83D36DF41E25635B00B8B612 /* ViewController.m */,
+				83D36E201E25637D00B8B612 /* SettingsDataProvider.h */,
+				83D36E211E25637D00B8B612 /* SettingsDataProvider.m */,
+				83D36E271E25711700B8B612 /* Setting.h */,
+				83D36E281E25711700B8B612 /* Setting.m */,
 				83D36DF61E25635B00B8B612 /* Main.storyboard */,
 				83D36DF91E25635B00B8B612 /* Assets.xcassets */,
 				83D36DFB1E25635B00B8B612 /* LaunchScreen.storyboard */,
@@ -125,8 +134,10 @@
 		83D36E061E25635B00B8B612 /* SettingsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				83D36E071E25635B00B8B612 /* SettingsAppTests.m */,
 				83D36E091E25635B00B8B612 /* Info.plist */,
+				83D36E2D1E2578A900B8B612 /* SettingTest.m */,
+				83D36E231E2563A700B8B612 /* SettingsDataProviderTest.m */,
+				83D36E251E25665E00B8B612 /* Settings.plist */,
 			);
 			path = SettingsAppTests;
 			sourceTree = "<group>";
@@ -259,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D36E261E25665E00B8B612 /* Settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D36DF51E25635B00B8B612 /* ViewController.m in Sources */,
 				83D36DF21E25635B00B8B612 /* AppDelegate.m in Sources */,
 				83D36DEF1E25635B00B8B612 /* main.m in Sources */,
+				83D36E291E25711700B8B612 /* Setting.m in Sources */,
+				83D36E221E25637D00B8B612 /* SettingsDataProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D36E081E25635B00B8B612 /* SettingsAppTests.m in Sources */,
+				83D36E2E1E2578A900B8B612 /* SettingTest.m in Sources */,
+				83D36E241E2563A700B8B612 /* SettingsDataProviderTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
